@@ -1,0 +1,32 @@
+{
+  "metadataVersion": "1.0",
+  "id": "com.sap.lumira.da.chromelogsextension",
+  "name": "SAP Lumira Chrome Network Logs Extension",
+  "description": "To analyze Chrome Network Logs",
+  "version": "REPLACE_VERSION",
+  "vendor" : {
+    "name": "SAP",
+    "url": "www.sap.com"
+  },
+  "requires": [
+    {
+	  "id": "sap.bi.da.extension.sdk",
+	  "version": "1.25.0",
+	  "match": "greaterOrEqual"
+    }
+  ],
+  "eclipse": {
+    "plugins": [
+	  {
+	    "id": "com.sap.lumira.da.chromelogsextension",
+		"version": "REPLACE_VERSION"
+	  }
+	]
+  },
+  "bundles": [
+    {
+      "id": "com.sap.lumira.da.chromelogsextension",
+      "version": "REPLACE_VERSION"
+    }
+  ]
+}

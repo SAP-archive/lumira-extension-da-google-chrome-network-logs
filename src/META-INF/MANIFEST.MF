@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Chrome Logs Extension
+Bundle-ClassPath: lib/gson-2.2.4.jar,.
+Bundle-SymbolicName: com.sap.lumira.da.chromelogsextension;singleton:=true
+Bundle-Version: 1.25.0.qualifier
+Bundle-Vendor: SAP
+Require-Bundle: com.sap.bi.da.extension.sdk;bundle-version="1.25.0"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Export-Package: com.sap.lumira.da.chromelogsextension

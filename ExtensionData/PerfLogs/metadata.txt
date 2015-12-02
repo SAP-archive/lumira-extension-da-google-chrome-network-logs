@@ -1,0 +1,95 @@
+{
+    "version": "1.0",
+    "columns": [
+        {
+            "name": "Log Name",
+            "type": "String",
+            "id": "id0",
+            "analyticalType": "dimension"
+        },
+        {
+            "name": "Request Url",
+            "type": "String",
+            "id": "id1",
+            "analyticalType": "dimension"
+        },
+        {
+            "name": "Request Item",            
+            "type": "String",
+            "id": "id2",
+            "analyticalType": "dimension"
+        },
+        {
+            "name": "Response Status",            
+            "type": "String",
+            "id": "id3",
+            "analyticalType": "dimension"
+        },
+        {
+            "name": "Response Content Type",
+            "type": "String",
+            "id": "id4",
+            "analyticalType": "dimension"
+        },
+        {
+            "name": "Compressed Response",            
+            "type": "Boolean",
+            "id": "id5",
+            "analyticalType": "dimension"
+        },
+        {
+            "name": "Stalled Time",            
+            "type": "Number",
+            "id": "id6",
+            "analyticalType": "measure"
+        },
+        {
+            "name": "Waiting Time",            
+            "type": "Number",
+            "id": "id7",
+            "analyticalType": "measure"
+        },
+        {
+            "name": "Request Sent Time",            
+            "type": "Number",
+            "id": "id8",
+            "analyticalType": "measure"
+        },
+        {
+            "name": "Download Time",            
+            "type": "Number",
+            "id": "id9",
+            "analyticalType": "measure"
+        },
+        {
+            "name": "Ssl Time",            
+            "type": "Number",
+            "id": "id10",
+            "analyticalType": "measure"
+        },
+        {
+            "name": "Dns Time",            
+            "type": "Number",
+            "id": "id11",
+            "analyticalType": "measure"
+        },
+        {
+            "name": "Total Time",            
+            "type": "Number",
+            "id": "id12",
+            "analyticalType": "measure"
+        },
+        {
+            "name": "Started Time",            
+            "type": "Datetime",
+            "id": "id13",
+            "analyticalType": "measure"
+        },
+        {
+            "name": "Page Reference",            
+            "type": "String",
+            "id": "id14",
+            "analyticalType": "dimension"
+        }
+    ]
+}
