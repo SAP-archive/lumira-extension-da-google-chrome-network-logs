@@ -1,3 +1,8 @@
+![](https://img.shields.io/badge/STATUS-NOT%20CURRENTLY%20MAINTAINED-red.svg?longCache=true&style=flat)
+
+# Important Notice
+We have decided to stop the maintenance of this public GitHub repository.
+
 Lumira Data Access Extension - Google Chrome Network Logs
 ==========================================================
 Google Chrome Dev tools lets you check your network traffic when accessing a website, and you can also export this data into logs which have a .har format. This extension lets you visualize/analyze various parameters that are logged in these files. You can compare across multiple such logs as well. This Lumira extension is built with the V2 SAP Lumira Data Access Extension SDK.
